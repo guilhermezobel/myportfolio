@@ -10,52 +10,49 @@ const last_posts = posts.slice(0, 3);
 
 <BaseLayout sideBarActiveItemID="home">
   <div class="pb-12 mt-5">
-    <div class="text-xl py-1">Hey there 👋</div>
-    <div class="text-5xl font-bold">I'm Manuel Ernesto</div>
-    <div class="text-3xl py-3 font-bold">Software Engineer and Entrepreneur</div>
+    <div class="text-xl py-1">Olá 👋</div>
+    <div class="text-5xl font-bold">Eu sou Guilherme Zobel</div>
+    <div class="text-3xl py-3 font-bold">Desenvolvedor Front-end</div>
     <div class="py-2">
       <text class="text-lg">
-        This is <b>Astrofy</b> a free and open-source template for your Personal Portfolio Website built with Astro and TailwindCSS.
-        Create in minutes a website with Blog, CV, Project Section, Store and RSS Feed. I hope you find
-        it useful!
+        Programar é mais do que uma simples tarefa, é uma jornada de constante aprendizado e crescimento.
+        São evoluções que requerem resiliência, colaboração, compartilhamento, inovação, criatividade.
+        Cada desafio é uma oportnidade de evoluir como profissional e indivíduo.
       </text>
     </div>
     <div class="mt-8">
-      <a class="btn" href="https://twitter.com/manuelernestog" target="_blank"> Let's connect!</a>
-      <a href="https://github.com/manuelernestog/astrofy" target="_blank" class="btn btn-outline ml-5">
-        Get This template
-      </a>
+      <a class="btn" href="https://api.whatsapp.com/send?phone=5551998054321&text=Guilherme%20Zobel" target="_blank"> Vamos nos conectar!</a>
     </div>
   </div>
 
   <div>
-    <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
+    <div class="text-3xl w-full font-bold mb-2">Meus últimos projetos {"</>"}</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
+    title="Ignews"
+    img="/project_ignews.png"
+    desc="O projeto ig.news é um blog onde os usuários podem ter acesso ao conteúdo de cada postagem de acordo com o status de sua assinatura."
+    url="https://github.com/guilhermezobel/project-ignews"
+    badge=""
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Cadastro de Usuários"
+    img="/project_cadastro_de_usuarios.png"
+    desc="O projeto é um CRUD unindo back-end com front-end."
+    url="https://github.com/guilhermezobel/projeto-cadastro-de-usuario"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
+    title="Dt Moneey"
+    img="/project_dtmoney.png"
+    desc="DT Money é um controle de contas financeiro pessoal que cadastra contas de entrada e saída, totaliza em cards utilizando uma biblioteca de Fake API MirajeJS que utiliza o formato JSON para fazer os cadastros."
+    url="https://github.com/guilhermezobel/project-dtmoney"
+    badge=""
   />
 
-  <div>
+  <!-- <div>
     <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
   </div>
 
@@ -73,5 +70,5 @@ const last_posts = posts.slice(0, 3);
         <div class="divider my-0" />
       </>
     ))
-  }
+  } -->
 </BaseLayout>
